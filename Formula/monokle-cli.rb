@@ -5,7 +5,7 @@ class MonokleCli < Formula
   
   version "0.1.0"
   url "https://github.com/kubeshop/monokle-core/releases/download/cli-v0.1.0/monokle.tar.gz"
-  sha256 "8587dc9a41e0e95726d6200921a0b878dd39952fda2750e1fad6e1814cdb68c3"
+  sha256 "971340d6a215ffaca76a6ab923818d80e1149c9d7947d568360520c07c9e4276"
 
   def install
     bin.install "monokle"
