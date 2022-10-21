@@ -1,4 +1,4 @@
-class Monoklecli < Formula
+class MonokleCli < Formula
   desc "Monokle CLI analyzes your Kubernetes resources to quickly find misconfigurations."
   homepage "https://github.com/kubeshop/monokle-core/tree/main/packages/cli"
   url "https://github.com/kubeshop/monokle-core/releases/download/cli-v0.1.0/monokle.tar.gz"
