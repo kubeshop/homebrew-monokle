@@ -19,5 +19,5 @@ Coming soon..
 You can install Monokle CLI as a formula:
 
 ```bash
-brew install monokle
+brew install monokle-cli
 ```
