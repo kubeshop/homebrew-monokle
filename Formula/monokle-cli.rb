@@ -3,13 +3,13 @@ class MonokleCli < Formula
   homepage "https://github.com/kubeshop/monokle-cli"
   license "MIT"
 
-  version "0.6.0"
+  version "0.7.0"
   if Hardware::CPU.arm?
-    url "https://github.com/kubeshop/monokle-cli/releases/download/v0.6.0/monokle-arm.tar.gz"
-    sha256 "73d3c20f89524db5be2e1d20118ca422e692df3e0d52cce4dd37473211416886"
+    url "https://github.com/kubeshop/monokle-cli/releases/download/v0.7.0/monokle-arm.tar.gz"
+    sha256 "a11001af5d31a9fd746213f8f3201ba51d69cf52ec3e0a57bef58b7a6231bfff"
   else
-    url "https://github.com/kubeshop/monokle-cli/releases/download/v0.6.0/monokle-amd64.tar.gz"
-    sha256 "0c7fcdd670f2e0776eb958615af26570a755a19a761c9b9d00e1b668932c3e87"
+    url "https://github.com/kubeshop/monokle-cli/releases/download/v0.7.0/monokle-amd64.tar.gz"
+    sha256 "bd9d400ff4ac6a1143f34c39061fb0484ad68720272522cc2947a2037e4169a1"
   end
 
   def install
