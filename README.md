@@ -12,7 +12,9 @@ brew tap kubeshop/monokle
 
 You can install Monokle Desktop as a cask:
 
-Coming soon..
+```bash
+brew install monokle
+```
 
 ## Monokle CLI
 
